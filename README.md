@@ -12,8 +12,8 @@ Something useful about this app.
 ## Release
 
 - `npm version {major|minor|patch}`
-- [Staging Release](https://github.com/kfredin/test-app/compare/staging...master?template=release-template.md)
-- [Production Release](https://github.com/kfredin/test-app/compare/production...staging?template=release-template.md)
+- [Staging Release](https://github.com/kfredin/test-app/compare/staging...master?title=Release%20x.y.z&template=release-template.md)
+- [Production Release](https://github.com/kfredin/test-app/compare/production...staging?title=Release%20x.y.z&template=release-template.md)
 
 ## Copyright
 
