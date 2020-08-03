@@ -7,7 +7,8 @@
     "build": "rm -rf ./build && mkdir build && cp src/index.js build",
     "lint": "eslint .",
     "test": "qunit",
-    "test:coverage": "nyc qunit"
+    "test:coverage": "nyc qunit",
+    "postversion": "git push && git push --tags"
   },
   "author": "",
   "license": "ISC",
