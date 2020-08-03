@@ -9,6 +9,10 @@ Something useful about this app.
 
 ## Getting Started
 
+## Release
+
+- `npm version {major|minor|patch}`
+
 ## Copyright
 
 Axcient 2020
