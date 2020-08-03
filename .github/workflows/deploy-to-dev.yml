@@ -25,10 +25,6 @@ jobs:
         with:
           node-version: "12.x"
 
-      - uses: webfactory/ssh-agent@v0.2.0
-        with:
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-
       - name: Install local dependencies
         run: HUSKY_SKIP_INSTALL=1 npm ci
 
