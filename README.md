@@ -13,6 +13,12 @@ Something useful about this app.
 - `cd test-app`
 - `npm ci`
 
+## Pull Request
+
+- `npm run pr`
+- OR
+- in your browser go to: `https://github.com/kfredin/test-app/compare/master...<YOUR_BRANCH_HERE>?title=PP-XXXX&template=pull-request-template.md`
+
 ## Release
 
 - `npm version {major|minor|patch}`
