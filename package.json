@@ -4,8 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rm -rf ./build && mkdir build && cp src/index.js build",
+    "lint": "eslint .",
+    "test": "qunit",
+    "test:coverage": "nyc qunit"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "nyc": "^15.1.0",
+    "qunit": "^2.10.1"
+  }
 }
