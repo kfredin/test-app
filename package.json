@@ -6,6 +6,7 @@
   "scripts": {
     "build": "rm -rf ./build && mkdir build && cp src/index.js build",
     "lint": "eslint .",
+    "pr": "open https://github.com/kfredin/test-app/compare/master...$(git branch --show-current)?template=pull-request.md",
     "test": "qunit",
     "test:coverage": "nyc qunit",
     "postversion": "git push && git push --tags"
