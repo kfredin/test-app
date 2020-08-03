@@ -19,11 +19,6 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - uses: oke-py/npm-audit-action@v1.4.0
-        with:
-          audit_level: critical
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Install dependencies
         run: HUSKY_SKIP_INSTALL=1 npm ci
 
