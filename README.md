@@ -9,6 +9,10 @@ Something useful about this app.
 
 ## Getting Started
 
+- `git clone git@github.com:kfredin/test-app.git`
+- `cd test-app`
+- `npm ci`
+
 ## Release
 
 - `npm version {major|minor|patch}`
