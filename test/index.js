@@ -8,6 +8,6 @@ QUnit.module("add", function () {
 
 QUnit.module("sub", function () {
   QUnit.test("should subtract two numbers", function (assert) {
-    assert.equal(sub(1, 1), 2, "1 - 1 = 0");
+    assert.equal(sub(1, 1), 0, "1 - 1 = 0");
   });
 });
