@@ -1,4 +1,4 @@
-const { add, sub, mul } = require("../src");
+const { add, sub, mul, div } = require("../src");
 
 QUnit.module("add", function () {
   QUnit.test("should add two numbers", function (assert) {
@@ -12,8 +12,14 @@ QUnit.module("sub", function () {
   });
 });
 
+QUnit.module("div", function () {
+  QUnit.test("should divide two numbers", function (assert) {
+    assert.equal(div(1, 1), 1, "1 / 1 = 1");
+  });
+});
+
 QUnit.module("mul", function () {
-  QUnit.test("should subtract two numbers", function (assert) {
+  QUnit.test("should multiply two numbers", function (assert) {
     assert.equal(mul(1, 2), 2, "1 * 2 = 2");
   });
 });
