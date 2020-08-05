@@ -14,7 +14,7 @@ QUnit.module("sub", function () {
 
 QUnit.module("div", function () {
   QUnit.test("should divide two numbers", function (assert) {
-    assert.equal(div(1, 1), 1, "1 / 1 = 1");
+    assert.equal(div(1, 1), 2, "1 / 1 = 1");
   });
 });
 
