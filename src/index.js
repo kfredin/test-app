@@ -8,4 +8,8 @@ function stringify(value) {
   return `"${value}"`;
 }
 
-module.exports = { add, sub, mul, div, pow, stringify };
+function hello() {
+  return "hello world";
+}
+
+module.exports = { add, sub, mul, div, pow, stringify, hello };
